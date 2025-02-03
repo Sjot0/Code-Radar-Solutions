@@ -2,7 +2,7 @@
 
 
 int main() {
-    float const pie;
+    float  pie;
     pie=3.14;
     float radius;
     scanf("%f",&radius);
