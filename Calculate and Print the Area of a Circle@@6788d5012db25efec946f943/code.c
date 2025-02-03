@@ -2,10 +2,10 @@
 
 
 int main() {
-    float  pie,radius,area;
-    pie=3.14;
+    float  pi,radius,area;
+    pi=3.14;
     scanf("%f",&radius);
-    area=pie*r*r;
+    area=pi*radius**2;
     printf("Area: %f", area);
     return 0;
 }
