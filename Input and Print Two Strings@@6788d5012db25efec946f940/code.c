@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    char a[10],b[10]:
-    scanf("%s %s",a,b);
-
-    printf("You entered: %s and %s\n", a,b);
+    char str1[100], str2[100];  // Declare two character arrays to store strings
+    
+    // Take two space-separated strings as input
+    scanf("%s %s", str1, str2);
+    
+    // Print the entered strings
+    printf("You entered: %s and %s\n", str1, str2);
+    
     return 0;
 }
