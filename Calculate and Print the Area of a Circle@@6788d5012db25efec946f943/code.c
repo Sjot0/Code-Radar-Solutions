@@ -5,7 +5,7 @@ int main() {
     float  pie,radius;
     pie=3.14;
     scanf("%f",&radius);
-    area=(float)(pie*r**2);
+    area=(pie*r**2);
     printf("Area: %f", area);
     return 0;
 }
