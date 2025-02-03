@@ -3,9 +3,9 @@
 
 
 int main() {
-    double a;
-    scanf("%ln",&a);
+    float a;
+    scanf("%f",&a);
 
-    printf("%.4ln",a);
+    printf("%.4f",a);
     return 0;
 }
