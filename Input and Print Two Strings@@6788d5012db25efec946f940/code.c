@@ -1,13 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char str1[100], str2[100];  // Declare two character arrays to store strings
-    
-    // Take two space-separated strings as input
-    scanf("%s %s", str1, str2);
-    
-    // Print the entered strings
-    printf("You entered: %s and %s\n", str1, str2);
-    
+    char a, b;  // Corrected the colon (:) to a comma (,)
+    scanf("%c %c", &a, &b);
+
+    printf("You entered: %c and %c", a, b);  // Added a comma between a and b
     return 0;
 }
