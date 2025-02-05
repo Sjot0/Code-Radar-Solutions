@@ -5,10 +5,8 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    a=a/a;
-    b=b/b;
 
-    if(a==-b)
+    if(a>=0 && b<=0)
     {
         printf("True");
     }
