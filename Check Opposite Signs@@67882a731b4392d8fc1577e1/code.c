@@ -15,7 +15,7 @@ int main() {
     else
     {
 
-    printf("%s", welcome());
+    printf("False");
     }
     return 0;
 }
