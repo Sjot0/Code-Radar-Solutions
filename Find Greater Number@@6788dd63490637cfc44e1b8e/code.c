@@ -7,13 +7,8 @@ int main() {
     if (num1>num2){
         printf("%d",num1)
     }
-    elif(num2>num1){
-        printf("%d",num2)
-    }
     else{
-
-    
-    printf("");
+        printf("%d",num2)
     }
     return 0;
 }
