@@ -10,8 +10,6 @@ int main() {
         printf("Vowel");
     }
     else{
-
-    
     printf("Consonant");
     }
     return 0;
