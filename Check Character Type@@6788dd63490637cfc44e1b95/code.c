@@ -7,7 +7,7 @@ int main() {
     scanf("%c",&a);
     vowel="AIEOUaieou"
     if(a in vowel){
-        printf("Vowel")
+        printf("Vowel");
     }
     else{
 
