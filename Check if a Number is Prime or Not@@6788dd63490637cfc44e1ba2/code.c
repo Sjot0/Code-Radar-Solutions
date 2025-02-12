@@ -7,14 +7,14 @@ int main(){
     for (i=2; i<num+1 ; i++){
 
     
-    if(num%i==0){
-        printf("Not Prime");
-        break;
+        if(num%i==0){
+            printf("Not Prime");
+            break;
 
-    }
-    else{
-        printf("Prime");
-        }
+            }
+        else{
+            printf("Prime");
+            }
 
 }
     return 0;
