@@ -13,6 +13,7 @@ int main(){
             count++;
 
         }
+    }
     if(count > 0){
         printf("Not Prime");
     }
