@@ -15,5 +15,6 @@ int main(){
     else{
         print("Prime");
     }
+    return 0;
 
 }
