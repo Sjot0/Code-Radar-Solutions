@@ -1,28 +1,19 @@
 #include <stdio.h>
 
-int main() {
-    int num, count = 0;
-    scanf("%d", &num);
+int main(){
+    int num;
+    scanf("%d",&num);
+    int count=0;
 
-    // Handle the edge case for numbers less than or equal to 1
-    if (num <= 1) {
-        printf("Not Prime\n");
-        return 0;
+    for (int i =2 ;i<num+1;i++){
+        count++;
+    }
+    if(count>2){
+        print("Not Prime");
+    
+    }
+    else{
+        print("Prime")
     }
 
-    // Loop to count the number of divisors
-    for (int i = 2; i <= num / 2; i++) {
-        if (num % i == 0) {
-            count++;
-        }
-    }
-
-    // If count is more than 0, the number is not prime
-    if (count > 0) {
-        printf("Not Prime\n");
-    } else {
-        printf("Prime\n");
-    }
-
-    return 0;
 }
