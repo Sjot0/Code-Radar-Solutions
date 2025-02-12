@@ -14,7 +14,7 @@ int main(){
 
         }
     }
-    if(count > 0){
+    if(count > 2){
         printf("Not Prime");
     }
     else{
