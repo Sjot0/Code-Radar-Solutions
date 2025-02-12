@@ -11,4 +11,5 @@ int main{
     else{
         printf("Second");
     }
+    return 0;
 }
