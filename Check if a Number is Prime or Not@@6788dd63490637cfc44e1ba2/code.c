@@ -1,23 +1,21 @@
 #include <stdio.h>
 
-int main() {
+int main(){
     int num;
-    scanf("%d", &num);
+    scanf("%d",&num);
 
-    // Check for number less than 2 (they are not prime)
-    if (num < 2) {
-        printf("Not Prime\n");
-        return 0;
+    if (num<=1){
+        printf("Not Prime");
+
     }
+    for (int i=2;i<num+1;i++){
+        if (num%i==0){
+            printf("Not Prime");
 
-    int i;
-    for (i = 2; i * i <= num; i++) {  // Only check up to sqrt(num)
-        if (num % i == 0) {
-            printf("Not Prime\n");
-            return 0;  // If divisible, it's not prime
         }
+    else{
+        printf("Prime");
     }
-
-    printf("Prime\n");  // If no divisors were found, it's prime
     return 0;
+    }
 }
