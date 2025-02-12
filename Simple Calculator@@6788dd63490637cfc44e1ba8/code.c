@@ -5,21 +5,21 @@ int main(){
     char c[10];
     scanf("%d %d %c",&a,&b,&c);
 
-    if(c='*'){
+    if(c=='*'){
         int product=a*b;
         printf("%d",product);
 
     }
-    else if(c='/'){
+    else if(c=='/'){
         int div=a/b;
         printf("%d",div);
     }
-    else if(c='+'){
+    else if(c=='+'){
         sum=a+b;
         printf("%d",sum);
 
     }
-    else if(c='-'){
+    else if(c=='-'){
         int sub=a-b;
         printf("%d",sub);
     }
