@@ -8,7 +8,7 @@ int main(){
 
     }
     else{
-        printf("Out Range");
+        printf("Out of Range");
 
     }
     return 0;
