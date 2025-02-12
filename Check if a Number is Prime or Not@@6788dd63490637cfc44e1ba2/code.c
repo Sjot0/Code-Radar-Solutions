@@ -13,7 +13,7 @@ int main(){
     
     }
     else{
-        print("Prime")
+        print("Prime");
     }
 
 }
