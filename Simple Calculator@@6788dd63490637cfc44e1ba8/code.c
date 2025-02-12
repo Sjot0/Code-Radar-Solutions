@@ -12,7 +12,7 @@ int main(){
     }
     else if(c=='/'){
         if(a==0 || b==0){
-            printf("Divisible BY Zero");
+            printf("error");
         }
         else{
             int div=a/b;
