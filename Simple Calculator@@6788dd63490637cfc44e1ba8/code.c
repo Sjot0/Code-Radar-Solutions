@@ -15,7 +15,7 @@ int main(){
         printf("%d",div);
     }
     else if(c=='+'){
-        sum=a+b;
+        int sum=a+b;
         printf("%d",sum);
 
     }
