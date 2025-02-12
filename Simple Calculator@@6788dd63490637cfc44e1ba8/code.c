@@ -23,5 +23,8 @@ int main(){
         int sub=a-b;
         printf("%d",sub);
     }
+    else{
+        printf("Invalid");
+    }
     return 0;
 }
