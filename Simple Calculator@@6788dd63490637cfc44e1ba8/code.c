@@ -11,8 +11,13 @@ int main(){
 
     }
     else if(c=='/'){
-        int div=a/b;
-        printf("%d",div);
+        if(a==0 || b==0){
+            printf("Divisible BY Zero");
+        }
+        else{
+            int div=a/b;
+            printf("%d",div);
+            }
     }
     else if(c=='+'){
         int sum=a+b;
