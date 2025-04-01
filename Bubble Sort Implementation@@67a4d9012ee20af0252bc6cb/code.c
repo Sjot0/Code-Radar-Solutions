@@ -7,7 +7,7 @@ int main () {
         scanf("&d", &arr[i]);
     }
     bubbleSort(arr, n);
-    printArray(arr, n);
+   // printArray(arr, n);
     return 0;
 }
 void bubbleSort(int arr, int n){
