@@ -7,11 +7,11 @@ int main () {
     for (int i = 0; i < n; i++) {
         scanf("&d", &arr[i]);
     }
-    bubbleSort(int* arr, n);
+    bubbleSort(&arr, n);
     printArray(arr, n);
     return 0;
 }
-void bubbleSort(int arr[], int n){
+void bubbleSort(int* arr[], int n){
 
     for(int i=0;i<n-1;i++){
         for (int j=0;j<n-i-1;j++){
