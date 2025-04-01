@@ -11,7 +11,7 @@ int main () {
     return 0;
 }
 void bubbleSort(int arr, int n){
-    int new_arr[];
+   // int new_arr[];
     for(int i=0,i<n,i++){
         print("%d",arr[i])
     }
