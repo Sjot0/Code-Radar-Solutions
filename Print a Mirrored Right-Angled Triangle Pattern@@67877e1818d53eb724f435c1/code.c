@@ -6,6 +6,14 @@ int main(){
     scanf("%d", &n);
 
     for (int i=1;i<=n;i++){
-       // for ()
+        for (int j=1; j<(a-i),j++){
+            printf(" ");
+
+        }
+        for (int k=1;k<2*i-1;k++){
+            printf("*");
+        }
+        printf("\n");
     }
+    retirn 0;
 }
